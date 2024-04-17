@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+
+.Chart {
+  background-color: #000000;
+  border-radius: 22px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.04);
+  margin-top: 2%;
+  padding: 1% 2%;
+  width: 91.5%;
+}
+
+.head {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.left {
+  line-height: 10px;
+}
+
+select {
+  background-color: #ffffff;
+  border: none;
+  color: #666666;
+}
+
+option {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+.line-data {
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .line-data {
+    margin: 1% 4%;
+  }
+}
